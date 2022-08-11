@@ -1,0 +1,35 @@
+div {
+    text-align: center;
+    background-color: black;
+    margin-left:30%;
+    margin-right:30%;
+    font-size: 20px;
+    color:blueviolet;
+    padding:10px;
+    border:5px solid orchid;
+}
+h1 {
+    text-align: center;
+    background-color: crimson;
+    color:white;
+    margin-left:30%;
+    margin-right:30%;
+    padding:10px;
+    border:5px solid black;
+}
+button {
+    margin:auto;
+    margin-top: 20px;
+    display:block;
+    font-size:20px;
+}
+@media(max-width:1034px) {
+    div {
+        margin-left:3px;
+        margin-right:3px;
+    }
+    h1 {
+        margin-left: 3px;
+        margin-right:3px;
+    }
+}
